@@ -1,0 +1,19 @@
+.mgLeft {
+    margin-left: 15px;
+
+}
+th,td {
+    vertical-align: baseline !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .mgLeft {
+        margin-left: 0px;
+    }
+    .minWidthBtn {
+        min-width: 75px;
+    }
+    th,td {
+        text-align: center;
+    }
+}
